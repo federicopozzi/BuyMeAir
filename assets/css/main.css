@@ -52,7 +52,7 @@ nav {
 
 
 /* ########## MARQUEE ########## */
-/* .marquee {
+ .marquee {
   overflow: hidden;
   --offset: 0vw;
   --move-initial: calc(-5% + var(--offset));
@@ -64,7 +64,7 @@ nav {
   display: flex;
   transform: translate3d(var(--move-initial), 0, 0);
   animation: marquee 5s linear infinite;
-  animation-play-state: paused;
+  animation-play-state: running;
 }
 
 .marquee span {
@@ -77,13 +77,14 @@ nav {
 }
 
 .country span {
-  color: #FDEF4B;
+  color: white;
+  background-color: #D97559;
 }
 
-.marquee__inner:hover {
+/*.marquee__inner {
   animation-play-state: running;
   cursor:context-menu;
-}
+}*/
 
 @keyframes marquee {
   0% {
@@ -93,7 +94,7 @@ nav {
   100% {
     transform: translate3d(var(--move-final), 0, 0);
   }
-} */
+}
 
 /* ########## NAVBAR ########## */
 
