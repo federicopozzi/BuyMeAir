@@ -11,8 +11,8 @@
 /* ########## DOM ########## */
 html {
   --color-main: #9437FF;
-  --color-text-primary: white;
-  --color-text-secondary: #FF0009;
+  --color-primary: #D97559;
+  --color-secondary: #F8D583;
   --font-secondary: Messapia-Bold;
   --font-text: "Inter", sans-serif;
   --font-light: 300;
@@ -26,7 +26,7 @@ html {
 }
 
 body {
-
+overflow-x: hidden;
 }
 
 footer {
@@ -78,7 +78,7 @@ nav {
 
 .country span {
   color: white;
-  background-color: #D97559;
+  background-color: var(--color-primary);
 }
 
 /*.marquee__inner {
@@ -100,7 +100,11 @@ nav {
 
 
 /* ########## HOME PAGE ########## */
-
+.mainSection {
+  height: 90vh;
+  background-color: var(--color-secondary);
+  padding-top: 5vw;
+}
 
 /* ########## CATEGORY PAGE ########## */
 
