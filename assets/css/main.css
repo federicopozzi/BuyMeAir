@@ -42,9 +42,17 @@ nav {
 }
 
 .websiteMargin {
-
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
+.header {
+  background-color: #2E4552;
+}
+
+#footer {
+  background-color: #2E4552;
+}
 /* ########## TYPO ########## */
 
 
@@ -100,10 +108,9 @@ nav {
 
 
 /* ########## HOME PAGE ########## */
-.mainSection {
-  height: 90vh;
+body {
+
   background-color: var(--color-secondary);
-  padding-top: 5vw;
 }
 
 /* ########## CATEGORY PAGE ########## */
