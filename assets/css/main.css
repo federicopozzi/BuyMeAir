@@ -58,6 +58,8 @@ nav {
 
 .header > div > div > div > a {
   color:white;
+  font-family: var(--font-secondary);
+  text-decoration: none;
 }
 
 footer {
