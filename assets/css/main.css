@@ -3,9 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
-  font-family: Messapia-Bold;
-  src: url('../font/Messapia-Bold.woff') format('woff'),
-    url('../font/Messapia-Bold.woff2') format('woff2')
+  font-family: Favorit;
+  src: url('../font/Favorit-Bold_Lining.woff') format('woff')
 }
 
 /* ########## DOM ########## */
@@ -13,7 +12,7 @@ html {
   --color-main: #9437FF;
   --color-primary: #D97559;
   --color-secondary: #F8D583;
-  --font-secondary: Messapia-Bold;
+  --font-secondary: Favorit;
   --font-text: "Inter", sans-serif;
   --font-light: 300;
   --font-reg: 400;
@@ -42,8 +41,8 @@ nav {
 }
 
 .websiteMargin {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .header {
@@ -117,8 +116,54 @@ body {
 
 
 /* ########## PRODUCT PAGE ########## */
+.titolo {
+  font-family: var(--font-text);
+  font-weight: var(--font-bold);
+  font-style: var(--fontitalic);
 
+}
+
+.price {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-bold);
+}
+
+.metodo {
+  background-color: #2E4552;
+  padding: 5px 15px 5px 15px;
+  font-size: 30px;
+  font-family: var(--font-text);
+  font-weight: var(--font-bold);
+  font-style: var(--fontitalic);
+}
+
+.sentence {
+  font-size: 35px;
+  font-family: var(--font-secondary);
+  font-weight: var(--font-bold);
+  text-align: center;
+}
+
+.consequences {
+  background-color: #4E9B8F;
+  color:white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: var(--font-text);
+  font-weight: var(--font-bold);
+  font-style: var(--fontitalic);
+}
 /* ########## ABOUT PAGE ########## */
+@media only screen and (max-width: 1300px) {
+  .websiteMargin {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
 
 
 /* iphone */
