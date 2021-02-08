@@ -32,6 +32,9 @@ footer {
 
 }
 
+.textFoot {
+  color:white;
+}
 a {
   text-decoration: none;
 }
@@ -88,7 +91,6 @@ nav {
   font-family: var(--font-text);
   font-weight: var(--font-bold);
   font-style: var(--fontitalic);
-  color: var(--color-text-secondary);
 }
 
 .country span {
